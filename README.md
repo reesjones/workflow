@@ -27,4 +27,4 @@ o--1--2--3--4
  - or `git rebase bottom top`
  - generally speaking, `git rebase <base branch> <branch to go on top of base>`
  
- (Fork/pull request workflow)[https://git-scm.com/book/en/v2/Distributed-Git-Contributing-to-a-Project#Forked-Public-Project]
+ [Fork/pull request workflow](https://git-scm.com/book/en/v2/Distributed-Git-Contributing-to-a-Project#Forked-Public-Project)
