@@ -17,3 +17,13 @@ o--1--2--3--4
 
 ## Tracking branches
  - a branch that has a remote branch associated with it is a tracking branch. foo tracks origin/foo
+ - `git checkout --track origin/branch`
+
+## Rebasing
+ - You're on "top"
+ - You have "bottom" which has commits starting from an ancestor of "top"
+ - You want "top" to be on "bottom"
+ - `git checkout top; git rebase bottom`
+ - or `git rebase bottom top`
+ 
+ (Fork/pull request workflow)[https://git-scm.com/book/en/v2/Distributed-Git-Contributing-to-a-Project#Forked-Public-Project]
