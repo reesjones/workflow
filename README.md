@@ -21,10 +21,10 @@ o--1--2--3--4
 
 ## Rebasing
  - Say you're on "top" branch
- - You have "bottom" branch which diverges from an ancestor commit of "top"
- - You want to move "top" on top of "bottom"
- - `git checkout top; git rebase bottom`
- - or `git rebase bottom top`
+ - You have "base" branch which diverges from an ancestor commit of "top"
+ - You want to move "top" on top of "base"
+ - `git checkout top; git rebase base`
+ - or `git rebase base top`
  - generally speaking, `git rebase <base branch> <branch to go on top of base>`
  
  [Fork/pull request workflow](https://git-scm.com/book/en/v2/Distributed-Git-Contributing-to-a-Project#Forked-Public-Project)
